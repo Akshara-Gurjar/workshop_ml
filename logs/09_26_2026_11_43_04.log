@@ -1,0 +1,20 @@
+[2026-09-26 11:43:04,637] 10 __main__ - INFO - TRAINING PIPELINE STARTED....
+[2026-09-26 11:43:04,637] 28 root - INFO - Data Ingestion started....
+[2026-09-26 11:43:04,652] 33 root - INFO - Data read successfully with shape: (100, 6)
+[2026-09-26 11:43:04,655] 46 root - INFO - Performing train-test-split
+[2026-09-26 11:43:04,752] 67 root - INFO - Data Ingestion completed...
+[2026-09-26 11:43:04,753] 69 root - INFO - Jo log online class le rhe h, unko bhi congration, unka bhi data ingestion ho chuka h, leptop per apna hath rkh kr apne aap ko pawan kare.
+[2026-09-26 11:43:04,776] 65 src.components.data_transformation - INFO - Train and test data loaded for transformation
+[2026-09-26 11:43:04,779] 54 src.components.data_transformation - INFO - preprocessor object created successfully...
+[2026-09-26 11:43:04,779] 78 src.components.data_transformation - INFO - Applying preprocessing oon train and test data
+[2026-09-26 11:43:04,807] 20 root - INFO - Object saved successfully at: artifacts\preprocessor.pkl
+[2026-09-26 11:43:04,807] 88 src.components.data_transformation - INFO - Preprocessor bject saved as preprocessor.pkl
+[2026-09-26 11:43:04,807] 23 src.components.model_trainer - INFO - Spliting train and test input data
+[2026-09-26 11:43:04,872] 54 root - INFO - LogisitcRegression Test Accuracy: 0.35
+[2026-09-26 11:43:04,875] 54 root - INFO - DecisionTree Test Accuracy: 0.35
+[2026-09-26 11:43:04,939] 54 root - INFO - RandomForest Test Accuracy: 0.35
+[2026-09-26 11:43:04,944] 54 root - INFO - KNeighboursClassifier Test Accuracy: 0.40
+[2026-09-26 11:43:04,944] 43 src.components.model_trainer - INFO - Best Model saved as model.pkl ::: KNeighboursClassifier
+[2026-09-26 11:43:04,945] 20 root - INFO - Object saved successfully at: artifacts\model.pkl
+[2026-09-26 11:43:04,945] 46 src.components.model_trainer - INFO -  best model saved as model.pkl ::: KNeighboursClassifier
+[2026-09-26 11:43:04,945] 22 __main__ - INFO - TRAINING PIPELINE COMPLETED | BEST MODEL: KNeighboursClassifier, Accuracy: 0.40
